@@ -22,6 +22,8 @@
 		DE3DFE871986C75E00CA2D37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3DFE691986C75E00CA2D37 /* UIKit.framework */; };
 		DE3DFE8F1986C75E00CA2D37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE3DFE8D1986C75E00CA2D37 /* InfoPlist.strings */; };
 		DE3DFE911986C75E00CA2D37 /* MobilikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3DFE901986C75E00CA2D37 /* MobilikeTests.m */; };
+		DEE587321987DADD00DE15FB /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE587311987DADD00DE15FB /* Accounts.framework */; };
+		DEE587341987DAF600DE15FB /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE587331987DAF600DE15FB /* Social.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,9 @@
 		DE3DFE8C1986C75E00CA2D37 /* MobilikeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobilikeTests-Info.plist"; sourceTree = "<group>"; };
 		DE3DFE8E1986C75E00CA2D37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE3DFE901986C75E00CA2D37 /* MobilikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobilikeTests.m; sourceTree = "<group>"; };
+		DEE3648C1986DBC9006FF969 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		DEE587311987DADD00DE15FB /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		DEE587331987DAF600DE15FB /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEE587341987DAF600DE15FB /* Social.framework in Frameworks */,
+				DEE587321987DADD00DE15FB /* Accounts.framework in Frameworks */,
 				DE3DFE681986C75E00CA2D37 /* CoreGraphics.framework in Frameworks */,
 				DE3DFE6A1986C75E00CA2D37 /* UIKit.framework in Frameworks */,
 				DE3DFE661986C75E00CA2D37 /* Foundation.framework in Frameworks */,
@@ -115,6 +122,9 @@
 		DE3DFE641986C75E00CA2D37 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DEE587331987DAF600DE15FB /* Social.framework */,
+				DEE587311987DADD00DE15FB /* Accounts.framework */,
+				DEE3648C1986DBC9006FF969 /* Twitter.framework */,
 				DE3DFE651986C75E00CA2D37 /* Foundation.framework */,
 				DE3DFE671986C75E00CA2D37 /* CoreGraphics.framework */,
 				DE3DFE691986C75E00CA2D37 /* UIKit.framework */,

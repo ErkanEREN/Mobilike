@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface HomeVC : UIViewController
+@property (strong, nonatomic) IBOutlet UIButton *btnTwitter;
+- (IBAction)btnTwitterTapped:(UIButton *)sender;
 
 @end
